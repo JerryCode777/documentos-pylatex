@@ -1,0 +1,56 @@
+\documentclass{article}%
+\usepackage[T1]{fontenc}%
+\usepackage[utf8]{inputenc}%
+\usepackage{lmodern}%
+\usepackage{textcomp}%
+\usepackage{lastpage}%
+\usepackage{amsmath}%
+%
+\title{Uso de PyLaTeX para Generar Documentos LaTeX}%
+\author{Jerry Anderson Huaynacho Mango}%
+\date{\today}%
+%
+\begin{document}%
+\normalsize%
+\maketitle%
+\section{Introducción}%
+\label{sec:Introduccin}%
+Este documento fue generado usando PyLaTeX, una librería de Python para crear archivos LaTeX programáticamente.%
+ A continuación se muestran ejemplos de cómo trabajar con variables y tablas.
+
+%
+\section{Uso de Variables en PyLaTeX}%
+\label{sec:UsodeVariablesenPyLaTeX}%
+Definimos las variables x = 5 e y = 10.%
+El resultado de la multiplicación de x por y es: %
+\[%
+5 \textbackslash{}times 10 = 50%
+\]
+
+%
+\section{Generación de Tablas}%
+\label{sec:GeneracindeTablas}%
+La siguiente tabla muestra datos generados dinámicamente:%
+\begin{tabular}{|c|c|c|}%
+\hline%
+ID&Nombre&Edad\\%
+\hline%
+1&Persona 1&25\\%
+\hline%
+2&Persona 2&30\\%
+\hline%
+3&Persona 3&35\\%
+\hline%
+4&Persona 4&40\\%
+\hline%
+5&Persona 5&45\\%
+\hline%
+\end{tabular}
+
+%
+\section{Conclusión}%
+\label{sec:Conclusin}%
+En este documento hemos mostrado cómo generar variables, realizar cálculos y crear tablas de manera dinámica usando PyLaTeX.
+
+%
+\end{document}
